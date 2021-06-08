@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import PokemonCard from "./PokemonCard";
@@ -8,6 +9,15 @@ function App() {
 
   useEffect(() => {
     console.log("fetch names here");
+
+    async function fetchNames() {
+      const response = await axios.get(
+        "https://pokeapi.co/api/v2/pokemon?limit=20"
+      );
+      console.log(response.data.results);
+    }
+
+    fetchNames();
   }, []);
 
   return (
