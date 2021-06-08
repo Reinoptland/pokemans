@@ -6,6 +6,10 @@ function App() {
   const [pokenames, setPokenames] = useState(null);
   // useEffect -> api pokemon -> [{ name: "bulbasaur"}, { name: "ivysaur"}]
 
+  useEffect(() => {
+    console.log("fetch names here");
+  }, []);
+
   return (
     <div>
       {pokenames ? (
