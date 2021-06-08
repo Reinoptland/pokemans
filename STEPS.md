@@ -5,8 +5,8 @@
 - [x] component maken (kaartje)
 - [x] state aanmaken voor pokemon
 - [ ] data ophalen voor 1 pokemon
-  - [ ] axios installeren
-  - [ ] useEffect instellen (on mount)
+  - [x] axios installeren
+  - [x] useEffect instellen (on mount)
   - [ ] url nodig: https://pokeapi.co/api/v2/pokemon/jigglypuff
   - [ ] async function
   - [ ] async aanroepen
