@@ -19,5 +19,16 @@ export default function PokemonCard() {
     fetchPokemon();
   }, []);
 
-  return <div>POKEMON</div>;
+  return (
+    <div>
+      {pokemon ? (
+        <div>
+          <h1>{pokemon.name}</h1>
+          <img src={pokemon.sprites.front_default} />
+        </div>
+      ) : (
+        <h3>Loading</h3>
+      )}
+    </div>
+  );
 }

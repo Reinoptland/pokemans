@@ -12,4 +12,5 @@
   - [x] async aanroepen
   - [x] goed kijken: welke data krijgen we terug (waar zit het plaatje in)
   - [x] sla data op & trigger a rerender -> setPokemon(response.data...)
-- [ ] data weergeven -> JSX `<h1>{pokemon.abilities.length}<h1>`
+- [x] conditional render in case the data is not there
+- [x] data weergeven -> JSX `<h1>{pokemon.abilities.length}<h1>`
