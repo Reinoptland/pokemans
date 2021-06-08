@@ -3,7 +3,7 @@
 1 kaartje laten zien
 
 - [x] component maken (kaartje)
-- [ ] state aanmaken voor pokemon
+- [x] state aanmaken voor pokemon
 - [ ] data ophalen voor 1 pokemon
   - [ ] axios installeren
   - [ ] useEffect instellen (on mount)
