@@ -21,14 +21,19 @@ function App() {
     fetchNames();
   }, []);
 
+  console.log(pokenames);
+
   return (
     <div>
       {pokenames ? (
         <div>
           {/* pokemons.map =>  <PokemonCard nameOfPokemon={pokemon.name} />*/}
-          <PokemonCard nameOfPokemon="jigglypuff" />
+          {/* <PokemonCard nameOfPokemon="jigglypuff" />
           <PokemonCard nameOfPokemon="diglett" />
-          <PokemonCard nameOfPokemon="drowzee" />
+          <PokemonCard nameOfPokemon="drowzee" /> */}
+          {pokenames.map((pokemon) => {
+            return <PokemonCard nameOfPokemon={pokemon.name} />;
+          })}
         </div>
       ) : (
         <h3>Loading</h3>
