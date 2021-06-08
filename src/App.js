@@ -15,6 +15,7 @@ function App() {
         "https://pokeapi.co/api/v2/pokemon?limit=20"
       );
       console.log(response.data.results);
+      setPokenames(response.data.results);
     }
 
     fetchNames();
