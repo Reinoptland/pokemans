@@ -25,6 +25,12 @@ export default function PokemonCard(props) {
       {pokemon ? (
         <div>
           <h1>{pokemon.name}</h1>
+          <div>
+            {pokemon.abilities.map((ability) => {
+              console.log(ability); // { ability: { name: "stomp" }}
+              return <p>{ability.ability.name}</p>;
+            })}
+          </div>
           <img src={pokemon.sprites.front_default} />
         </div>
       ) : (
