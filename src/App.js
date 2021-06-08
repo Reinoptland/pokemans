@@ -1,10 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import PokemonCard from "./PokemonCard";
 
 function App() {
   return (
     <div>
-      Begin hier met de opdracht!
+      <PokemonCard />
     </div>
   );
 }

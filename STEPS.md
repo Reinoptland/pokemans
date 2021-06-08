@@ -2,7 +2,7 @@
 
 1 kaartje laten zien
 
-- [ ] component maken (kaartje)
+- [x] component maken (kaartje)
 - [ ] state aanmaken voor pokemon
 - [ ] data ophalen voor 1 pokemon
   - [ ] axios installeren
