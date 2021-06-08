@@ -7,9 +7,9 @@
 - [ ] data ophalen voor 1 pokemon
   - [x] axios installeren
   - [x] useEffect instellen (on mount)
-  - [ ] url nodig: https://pokeapi.co/api/v2/pokemon/jigglypuff
-  - [ ] async function
-  - [ ] async aanroepen
+  - [x] url nodig: https://pokeapi.co/api/v2/pokemon/jigglypuff
+  - [x] async function
+  - [x] async aanroepen
   - [ ] goed kijken: welke data krijgen we terug (waar zit het plaatje in)
   - [ ] sla data op & trigger a rerender -> setPokemon(response.data...)
 - [ ] data weergeven -> JSX `<h1>{pokemon.abilities.length}<h1>`
